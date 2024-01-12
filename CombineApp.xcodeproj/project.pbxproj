@@ -11,6 +11,8 @@
 		6DBF85AC2B515DDF00315358 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBF85AB2B515DDF00315358 /* ContentView.swift */; };
 		6DBF85AE2B515DE000315358 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DBF85AD2B515DE000315358 /* Assets.xcassets */; };
 		6DBF85B12B515DE000315358 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DBF85B02B515DE000315358 /* Preview Assets.xcassets */; };
+		6DBF85BA2B5163AE00315358 /* PokemonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBF85B92B5163AE00315358 /* PokemonData.swift */; };
+		6DBF85BC2B5163E200315358 /* PokemonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBF85BB2B5163E200315358 /* PokemonViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		6DBF85AB2B515DDF00315358 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6DBF85AD2B515DE000315358 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DBF85B02B515DE000315358 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6DBF85B92B5163AE00315358 /* PokemonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonData.swift; sourceTree = "<group>"; };
+		6DBF85BB2B5163E200315358 /* PokemonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				6DBF85AB2B515DDF00315358 /* ContentView.swift */,
 				6DBF85AD2B515DE000315358 /* Assets.xcassets */,
 				6DBF85AF2B515DE000315358 /* Preview Content */,
+				6DBF85B92B5163AE00315358 /* PokemonData.swift */,
+				6DBF85BB2B5163E200315358 /* PokemonViewModel.swift */,
 			);
 			path = CombineApp;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DBF85AC2B515DDF00315358 /* ContentView.swift in Sources */,
+				6DBF85BA2B5163AE00315358 /* PokemonData.swift in Sources */,
+				6DBF85BC2B5163E200315358 /* PokemonViewModel.swift in Sources */,
 				6DBF85AA2B515DDF00315358 /* CombineAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
